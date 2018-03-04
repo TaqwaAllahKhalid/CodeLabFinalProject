@@ -38,6 +38,10 @@ app.use(express.static(__dirname + '/public'));
 
 
 /* GET home page. */
+router.get('/', function (req, res, next) {
+    res.render('index');
+});
+
 router.get('/brightness-school', function (req, res, next) {
     res.render('index');
 });
