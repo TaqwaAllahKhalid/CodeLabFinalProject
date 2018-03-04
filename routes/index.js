@@ -42,15 +42,11 @@ router.get('/', function (req, res, next) {
     res.render('index');
 });
 
-router.get('/brightness-school', function (req, res, next) {
-    res.render('index');
-});
-
-router.get('/brightness-school/application-form', function(req, res) {
+router.get('/application-form', function(req, res) {
     res.render('applications')
 });
 
-router.get('/brightness-school/students-information-control-center', function (req,res) {
+router.get('/students-information-control-center', function (req,res) {
     res.render('students-information-control-center')
 });
 
