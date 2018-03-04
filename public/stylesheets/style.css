@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', Roboto, sans-serif;
+  background-color: #ADD8E6;
+
+}
+
+/*navbar background color*/
+.navbar-bg {
+  background-color: #e3f2fd;
+}
+
+/*logo font style*/
+.logo-font {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* 'home' page jumbotron background style*/
+.jumbotron-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/82/2009-0617-Ontonagon-school.jpg);
+}
+
+/* 'home' page jumbotron text background*/
+.jumbotron-text-bg {
+  background-color: rgba(255, 255, 224, 0.5);
+}
+
+/* 'application-form' page carousel */
+.carousel-bg {
+  background-color: rgba(0, 96, 100, 1);
+}
+
+/*'home' page 'school-information' images*/
+.rec-size {
+  border-radius: 15px;
+  border: 2px;
+  height: 31%;
+  width: 49%;
+  margin-top: 5px;
+}
+
+/*to make a vertical line to the left side of a content */
+.vl {
+  border-left: 2px solid darkslategrey;
+  height: 500px;
+  left: 0;
+  margin-left: -3px;
+}
+
+/*to make a vertical line to the right side of a content*/
+.vr {
+  border-right: 2px solid darkslategrey;
+  right: 0.8rem;
+  margin-right: -3px;
+}
+
+/*to make a header 'h5' and a paragraph  in the same line */
+#containerIntro h5 {
+  display: inline;
+  color: #4682B4;
+  line-height: 28px;
+}
+
+#containerIntro p {
+  display: inline;
+  font-size: 15px
+}
+
+/*'application rule' list font size*/
+ul li {
+  font-size: 18.6px
+}
